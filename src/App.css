@@ -1,38 +1,146 @@
-.App {
+/*@font-face{
+  font-family: opensans;/* can be any Name you want*/
+  /*src: url(TatumsHandwriting1-Regular.ttf) format("truetype");
+}
+
+
+/*Set document font*/
+body{
+  font-family: opensans;
+  font-size: 2rem;
+}
+.container {
+  display: grid;
+  grid-template-rows: 5vh 10vh auto 20vh;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  grid-template-areas: 
+  "b b"
+  "l n"
+  "p p"
+  "f f"; 
+}
+/*Blackbar*/
+#blackbar{
+  grid-area: b;
+  background: black;
+  margin: -1rem -1rem 0rem;
+}
+
+/*Logo*/
+#logo{
+  grid-area: l;
+  justify-self: center;
+ /* position: -webkit-sticky;
+  position: sticky;
+  top: 0;*/
+  transform: translateY(-40px);
+}
+.logoBox img{
+  max-width: 7em;
+}
+
+/*Navigation*/
+#navbar{
+  grid-area: n;
+  justify-self: center;
+  /*position: -webkit-sticky;
+  position: sticky;
+  top: 0;*/
+}
+  ul li{
+    display: inline;
+    list-style: none;
+    font-size: 4vh;
+    transition: all .2s ease; 
+  }
+  ul li:hover{
+    font-size: 3rem;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+/*Picture*/
+#picture{
+  grid-area: p;
+  margin: 4rem;
+  background-color: rgb(233, 115, 19);
+}
+
+#picture img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* CSS for picture and text*/
+
+#ocean {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+.textDiv {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 400%);
+  -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#picture:hover #ocean{
+  opacity: 0.5;
+  
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#picture:hover .textDiv{
+  opacity: 1;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/*FOOTER*/
+#footer{
+  grid-area: f;
+  background-color: black;
+  margin: 1rem -1rem -1rem;
+  display:flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .ftext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 20rem;
+    color:white;
+    font-size:medium;
   }
-  to {
-    transform: rotate(360deg);
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position:static;
+    height: 10rem;
+    width: 20rem;
   }
-}
+  i{
+    font-size:larger;
+    color:white;
+    transition:.2s ease;
+    padding: .5rem;
+  }
+  i:hover{
+    font-size: 3rem;
+  }
+  .footerNav{
+    display: flex;
+    margin-right: 8rem; 
+  }
+  .footerNav li a {
+    color:white;
+  }
