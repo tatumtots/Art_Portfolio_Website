@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1;
+    grid-template-areas: "picture form";
+    border: 2px solid black;
+}
+img{
+    grid-area: picture;
+}
+form{
+    grid-area: form;
+    background-color: cadetblue;
+}
