@@ -1,0 +1,81 @@
+
+
+export const images = [
+  {
+    id: 1,
+    img: "/assets/images/nebulashore.png",
+    title: "Nebula Shore",
+    description: "lorem",
+    cssClass: "img1",
+  },
+  {
+    id: 2,
+    img: "/assets/images/spaceballs.jpg",
+    title: "Space Balls",
+    description: "lorem1",
+    cssClass: "img2",
+  },
+  {
+    id: 3,
+    img: "/assets/images/nebulaocean.jpg",
+    title: "Pitbull",
+    description: "lorem2",
+    cssClass: "img3",
+  },
+  {
+    id: 4,
+    img: "/assets/images/orangemountain.jpg",
+    title: "Orange Mist",
+    description: "lorem3",
+    cssClass: "img4",
+  },
+  {
+    id: 5,
+    img: "/assets/images/aspenlake.jpg",
+    title: "Aspen Lake",
+    description: "lorem4",
+    cssClass: "img5",
+  },
+  {
+    id: 6,
+    img: "/assets/images/stripedshirt.jpg",
+    title: "Striped Shirt",
+    description: "lorem4",
+    cssClass: "img6",
+  },
+  {
+    id: 7,
+    img: "/assets/images/whippedcream.jpg",
+    title: "Whipped Dream",
+    description: "lorem4",
+    cssClass: "img7",
+  },
+  {
+    id: 8,
+    img: "/assets/images/roostercolor.jpg",
+    title: "Blue Rooster",
+    description: "lorem4",
+    cssClass: "img8",
+  },
+  {
+    id: 9,
+    img: "/assets/images/yorkie.jpg",
+    title: "Yorkie",
+    description: "lorem4",
+    cssClass: "img9",
+  },
+  {
+    id: 10,
+    img: "/assets/images/littlechicken.jpg",
+    title: "Little Chick",
+    description: "lorem4",
+    cssClass: "img10",
+  },
+  {
+    id: 11,
+    img: "/assets/images/pitbull.jpg",
+    title: "Pitbull",
+    description: "lorem4",
+    cssClass: "img11",
+  },
+]
